@@ -1,6 +1,6 @@
 # Shotvia support / Shotvia destek
 
-Shotvia: Screenshot & Blur is a macOS screenshot editor. Capture an area, a window, or the full screen; annotate, blur, pixelate, and copy text from images.
+Shotvia: Screenshot & Blur is a screenshot editor for macOS and Windows. Capture an area, a window, or the full screen; annotate, blur, pixelate, and copy text from images. The Windows edition is free; store releases become available after their respective reviews.
 
 **Contact / İletişim:** [rootmancer0@gmail.com](mailto:rootmancer0@gmail.com)
 
@@ -33,3 +33,21 @@ Shotvia: Screenshot & Blur is a macOS screenshot editor. Capture an area, a wind
 Email your macOS version, Shotvia version, and steps to reproduce. Attach only images you choose to share and remove private information first.
 
 macOS sürümünü, Shotvia sürümünü ve sorunun adımlarını e-postayla gönderin. Yalnızca paylaşmak istediğiniz görüntüleri ekleyin ve özel bilgileri önce kaldırın.
+
+## Windows quick help
+
+- **Print Screen** captures an area. Right-click the Shotvia system tray icon to capture an area, a visible window, the current screen, or all screens.
+- Change capture and tool shortcuts in **Tools → Options (Ctrl+,)**. If Print Screen opens the Windows Snipping Tool, turn off that binding in **Windows Settings → Accessibility → Keyboard**, or choose a different Shotvia shortcut.
+- **Ctrl+C** copies the rendered image and hides the editor. While editing text, it copies selected text normally. **Copy text** and **Copy all text** use Windows' on-device OCR; an installed OCR language is required.
+- The Store edition starts in the system tray at login after its first launch. Manage this in **Windows Settings → Apps → Startup**; the app's startup-settings button opens that page. The portable edition has a **Launch at login** switch and its extracted folder must stay in place.
+- Export/import effect settings through **File** to share the same blur, pixelation and text-blur values between Mac and Windows. For a direct comparison, use the same source PNG and selection in source pixels.
+- Include your Windows version, display scaling and number of monitors when reporting a capture problem.
+
+## Windows hızlı yardım
+
+- **Print Screen** ile alan yakalayın. Sağ alttaki Shotvia simgesine sağ tıklayarak alan, görünür pencere, mevcut ekran veya tüm ekranları yakalayın.
+- **Araçlar → Ayarlar (Ctrl+,)** bölümünde yakalama ve araç kısayollarını değiştirin. Print Screen Windows Ekran Alıntısı Aracı'nı açıyorsa **Windows Ayarları → Erişilebilirlik → Klavye** bölümündeki atamayı kapatın veya Shotvia için başka bir kısayol seçin.
+- **Ctrl+C** görüntüyü kopyalayıp düzenleyiciyi gizler; metin düzenlerken seçili yazıyı kopyalar. **Yazıyı kopyala** ve **Tüm yazıyı kopyala**, Windows'un yerel OCR motorunu kullanır; yüklü bir OCR dili gerekir.
+- Store sürümü ilk kez açıldıktan sonra oturum açılışında sağ alt simgeyle başlar. **Windows Ayarları → Uygulamalar → Başlangıç** bölümünden açıp kapatabilirsiniz; uygulamadaki başlangıç ayarları düğmesi bu sayfayı açar. Portable sürümde **Windows ile başlat** seçeneği vardır ve ZIP'ten çıkardığınız klasör kalıcı konumda tutulmalıdır.
+- **Dosya** menüsünden efekt ayarlarını dışa/içe aktararak Mac ve Windows arasında aynı blur, piksel ve metin blur değerlerini paylaşın. Doğrudan karşılaştırma için aynı kaynak PNG'yi ve gerçek görüntü piksellerinde aynı alanı kullanın.
+- Yakalama sorunu bildirirken Windows sürümünü, ekran ölçeklendirmesini ve monitör sayısını ekleyin.

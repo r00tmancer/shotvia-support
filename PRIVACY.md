@@ -44,3 +44,21 @@ Shotvia ekran görüntülerini, açılan görselleri, düzenlemeleri ve tanınan
 **Seçimleriniz.** Sistem Ayarları’ndan ekran iznini kaldırabilir, girişte açılmayı kapatabilir, panoyu temizleyebilir ve kaydettiğiniz dosyaları silebilirsiniz. Destek yazışmaları veya bu politika için yukarıdaki adrese ulaşabilirsiniz.
 
 Veri uygulamaları değişirse bu politika yeni yürürlük tarihiyle güncellenir.
+
+## Windows edition / Windows sürümü
+
+The Windows edition follows the same local-processing principle: screenshots, edits and OCR results are not uploaded to the developer or a server. It has no accounts, advertising, analytics SDK or tracking. Windows downloads are free, with no in-app purchases.
+
+Capture is initiated by you through the tray menu or a shortcut. Frozen display images are held in memory for selection and the magnifier. No microphone or system audio is recorded. Opening and exporting files use the file you select in Windows. Copy commands write to the Windows clipboard; other applications, clipboard history and clipboard synchronization may access the copied content according to your Windows settings.
+
+Text recognition uses Windows' on-device OCR engine on the rendered image, including your edits. The current Windows implementation writes the selected image and recognized text into a uniquely named temporary folder on your computer for the local OCR helper. It attempts to delete those temporary files after the operation; an interrupted process or crash may leave temporary files in the Windows temporary directory. Nothing is sent to an OCR service.
+
+Preferences stay in your Windows user profile. The Store edition uses Windows' Startup apps controls for launch at login; the portable edition uses a current-user startup registration that can be switched off in the app. Saved images remain where you export them until you delete them. Unsaved editor images are discarded on exit. Support correspondence and external links follow the terms described above.
+
+Windows sürümünde de ekran görüntüleri, düzenlemeler ve OCR sonuçları bilgisayarınızda işlenir; geliştiriciye veya sunucuya yüklenmez. Hesap, reklam, analiz SDK'sı veya takip sistemi yoktur. Windows sürümü ücretsizdir ve uygulama içi satın alma içermez.
+
+Yakalamayı tepsi menüsünden veya kısayoldan siz başlatırsınız. Alan seçimi ve büyüteç için ekran görüntüsü bellekte tutulur; mikrofon veya sistem sesi alınmaz. Dosya açma ve dışa aktarma, Windows'ta seçtiğiniz dosyada yapılır. Kopyalama Windows panosuna yazar; diğer uygulamalar, pano geçmişi ve pano eşitleme özellikleri Windows ayarlarınıza göre kopyalanan içeriğe erişebilir.
+
+Metin tanıma, uygulanmış düzenlemeleri içeren görüntüde Windows'un cihazdaki OCR motorunu kullanır. Mevcut uygulama, seçilen görüntüyü ve tanınan yazıyı yerel OCR yardımcısı için bilgisayarınızdaki benzersiz adlı geçici bir klasöre yazar. İşlem bitince bu dosyaları silmeye çalışır; kesinti veya çökme Windows geçici klasöründe dosya bırakabilir. OCR hizmetine veri gönderilmez.
+
+Tercihler Windows kullanıcı profilinizde saklanır. Store sürümünün oturum açılışında çalışmasını Windows Başlangıç uygulamaları bölümünden yönetirsiniz; portable sürüm kullanıcıya ait başlangıç kaydını kullanır ve uygulamadan kapatılabilir. Dışa aktarılan görüntüler siz silene kadar seçtiğiniz yerde kalır; kaydedilmemiş görseller çıkışta silinir. Destek yazışmaları ve dış bağlantılar için yukarıdaki hükümler geçerlidir.
